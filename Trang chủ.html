@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang chủ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+        @font-face { 
+            font-family: myThirdFont; 
+            src: url("SVN-Oriental Kaishu.otf");
+        }
+        @font-face { 
+            font-family: myFirstFont; 
+            src: url("SVN-Truffaux Pro.otf");
+        }
+        @font-face { 
+            font-family: mySecondFont; 
+            src: url("SVN-Magnificent.otf");
+        }
+        @font-face { 
+            font-family: myFourthFont; 
+            src: url("SVN-Bali Script.ttf");
+        }
+
+        /*Định dạng cho menu nè*/
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #130f40;
+            position: fixed;   
+            top: 0; 
+            left: 0;
+            width: 100%;     
+            z-index: 1000;
+        }
+			.navbar li { 
+				float: left; 
+			}
+			.navbar li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 30px 25px;
+				font-family: myThirdFont;  
+				font-size: 30px;
+				text-decoration: none;
+			}
+			.navbar li a:hover:not(.active) { 
+				background-color: #0c2461; 
+			}
+			.navbar .active { 
+				background-color: #3c6382; 
+			}
+
+        /*Định dạng cho ndung nè*/
+        body {
+            background-image: url("bg tokyo.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            margin-top: 80px;
+        }
+        h2 { 
+            font-family: myFirstFont; 
+            font-size: 160px;
+            color: white;
+            margin-left: 120px;
+        }
+        p {
+            font-family: mySecondFont;
+            color: white;
+            margin-left: 130px; 
+            position: relative;
+            top: -140px;
+            max-width: 38%;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a class="active" href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Trang chủ.html">Trang chủ</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tham quan.html">Tham quan</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tokyo theo mùa.html">Các mùa ở Tokyo</a></li>
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Lịch trình tham quan.html">Lịch trình</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Khách sạn nổi tiếng.html">Khách sạn</a></li>
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Đặt vé.html">Đặt vé</a></li>
+	</ul>
+
+    <h2>TOKYO</h2>
+    <p style="font-size:20px">Được coi là "trái tim của du lịch Nhật Bản" và luôn là điểm đến hấp dẫn đối với du khách quốc tế, Tokyo không chỉ nổi bật với những khu đô thị sôi động, hiện đại mà còn bảo tồn nhiều giá trị văn hóa và ẩm thực đặc trưng của Nhật Bản.</p>
+</body>
+</html>
+

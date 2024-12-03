@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tokyo theo mùa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face { 
+            font-family: myThirdFont; 
+            src: url("SVN-Oriental Kaishu.otf");
+        }
+        @font-face { 
+            font-family: myFirstFont; 
+            src: url("SVN-Truffaux Pro.otf");
+        }
+        @font-face { 
+            font-family: mySecondFont; 
+            src: url("SVN-Magnificent.otf");
+        }
+		
+		/*Định dạng cho menu nè*/
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #130f40;
+            position: fixed;   
+            top: 0; 
+            left: 0;
+            width: 100%;     
+            z-index: 1000;
+        }
+        .navbar li { 
+            float: left; 
+        }
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 30px 25px;
+            font-family: myThirdFont;  
+            font-size: 30px;
+            text-decoration: none;
+        }
+        .navbar li a:hover:not(.active) { 
+            background-color: #0c2461; 
+        }
+        .navbar .active { 
+            background-color: #3c6382; 
+        }
+
+        /*Định dạng cho ndung nè*/
+        body {
+            background-color: #c7ecee;
+            font-family: mySecondFont;
+            margin: 20px;
+        }
+        h2 { 
+            font-family: myFirstFont; 
+            font-size: 80px; 
+            color: #2d3436;
+            text-align: center; 
+            margin-top: 120px;
+        }
+        .content {
+            margin-left: 100px; 
+        }
+			.content p {
+				font-family: mySecondFont;
+				color: black;
+				font-size: 18px;
+				margin-bottom: 20px;
+				max-width: 60%;
+				text-align: left;
+			}
+			.content .image-gr {
+				display: flex;
+				justify-content: flex-start; 
+				gap: 10px;
+				margin-top: 10px;
+				text-align: right;
+			}
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Trang chủ.html">Trang chủ</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tham quan.html">Tham quan</a></li>
+		<li><a class="active" href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tokyo theo mùa.html">Các mùa ở Tokyo</a></li>
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Lịch trình tham quan.html">Lịch trình</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Khách sạn nổi tiếng.html">Khách sạn</a></li>
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Đặt vé.html">Đặt vé</a></li>
+    </ul>
+
+    <h2>Du lịch Tokyo mùa nào đẹp</h2>
+    <div class="content">
+		<p><strong>Tháng 3-5:</strong> Mùa xuân là một trong những thời điểm tốt nhất để du lịch Nhật Bản. Nếu bạn đến thăm Tokyo để ngắm hoa anh đào, thì đầu đến giữa tháng 4 là thời điểm bạn nên đi. Tháng 5 cũng tuyệt vời nhưng là mùa cao điểm cho du lịch nội địa ở Nhật.
+		</p>
+		<div class="image-gr">
+			<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\mùa xuân 1.jpg" style="width:200px;height:150px"> 
+			<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\mùa xuân 2.jpg" style="width:200px;height:150px">
+		</div>
+		<p><strong>Tháng 6-8:</strong> Mùa hè là mùa cao điểm ở Nhật Bản và là một trong những tháng nóng nhất và mưa nhất. Nóng và đông đúc hơn, có lẽ không phải là thời điểm thoải mái nhất để đi</p>
+		<div class="image-gr">
+			<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\mùa hè 1.jpg" style="width:250px;height:160px"> 
+			<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\mùa hè 2.jpg" style="width:300px;height:160px">
+		</div>
+		<p><strong>Tháng 9-11:</strong> Mùa thu nói chung là một trong những thời điểm đẹp nhất trong năm để đến Nhật Bản. Lá bắt đầu chuyển màu vào cuối tháng 10 vì vậy thời gian tối ưu để ngắm sắc mùa thu là vào tháng 11.</p>
+		<div class="image-gr">	
+			<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\mùa thu 1.jpg" style="width:250px;height:160px"> 
+			<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\mùa thu 2.jpg" style="width:250px;height:160px">
+		</div>	
+		<p><strong>Tháng 12-2:</strong> Mùa đông không phải là thời điểm tốt nhất để đến thăm Tokyo nhưng nếu bạn muốn đi trượt tuyết tại các khu nghỉ dưỡng trượt tuyết ở Nhật Bản, thì mùa đông rõ ràng là thời điểm tốt nhất để đi.</p>
+		<div class="image-gr">
+			<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\mùa đông 1.jpg" style="width:250px;height:160px"> 
+			<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\mùa đông 2.jpg" style="width:135px;height:160px">		
+		</div>
+	</ul>
+</body>
+</html>
+
+

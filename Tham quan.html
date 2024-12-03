@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tham Quan Tokyo</title>
+    <style>
+        @font-face { 
+            font-family: myThirdFont; 
+            src: url("SVN-Oriental Kaishu.otf");
+        }
+        @font-face { 
+            font-family: myFirstFont; 
+            src: url("SVN-Truffaux Pro.otf");
+        }
+        @font-face { 
+            font-family: mySecondFont; 
+            src: url("SVN-Magnificent.otf");
+        }
+        @font-face { 
+            font-family: myFourthFont; 
+            src: url("SVN-Bali Script.ttf");
+        }
+		@font-face { 
+            font-family: myFifthFont; 
+            src: url("SVN-Alluring.otf");
+        }
+
+        /*Định dạng cho menu*/
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #130f40;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .navbar li {
+            float: left;
+        }
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 30px 25px;
+            font-family: myThirdFont;
+            font-size: 30px;
+            text-decoration: none;
+        }
+        .navbar li a:hover:not(.active) {
+            background-color: #0c2461;
+        }
+        .navbar .active {
+            background-color: #3c6382;
+        }
+
+        /*Định dạng cho nội dung*/
+        body {
+            background-color: #c7ecee;
+            font-family: mySecondFont;
+            margin: 20px;
+        }
+        h2 {
+            font-family: myFirstFont;
+            color: #2d3436;
+            text-align: center;
+            margin-top: 120px;
+            font-size: 80px;
+        }
+		h3 {
+			margin-left: 100px;
+			font-family: myFourthFont;
+			font-size: 50px;
+			color: #2d3436;
+			margin-top: 30px;
+		}
+		p {
+			margin-left: 100px;
+			font-family: mySecondFont;
+			color: black;
+			font-size: 18px;
+			max-width: 60%;
+			text-align: left;
+			margin-top: 10px;
+		}
+		.content-vs-vid {
+			display: flex;
+			align-items: flex-start;
+			margin-top: -30px;
+		}
+		.txt-content {
+			width: 65%;
+		}
+		.vid-content {
+			width: 35%;
+		}	
+
+		.content-gr {
+			display: flex;
+			gap: 10px;
+			margin-left: 55px;
+			align-items: left;
+			width: 80%;
+		}
+			.content-gr p {
+				font-family:myFifthFont;
+				font-size: 25px;
+			}
+			
+        .image-gr {
+			display: flex;
+			justify-content: space-between;
+			gap: 10px;
+			margin-left: 135px;
+			margin-top: 10px;
+			flex-direction: row;
+			align-items: center;
+			width: 48%;
+		}
+			.image-gr img {
+				width: 48%;
+				height: 230px;
+				object-fit: cover;
+			}
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Trang chủ.html">Trang chủ</a></li>
+		<li><a class="active" href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tham quan.html">Tham quan</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tokyo theo mùa.html">Các mùa ở Tokyo</a></li>
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Lịch trình tham quan.html">Lịch trình</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Khách sạn nổi tiếng.html">Khách sạn</a></li>
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Đặt vé.html">Đặt vé</a></li>
+	</ul>
+
+    <h2>Các Địa Điểm Tham Quan Tokyo</h2>
+        <h3>1. Hoàng cung Tokyo</h3>
+		<div class="content-vs-vid">
+			<div class="txt-content">
+			<p>Nằm ngay trung tâm thành phố, Hoàng cung Tokyo là nơi sinh sống và làm việc của hoàng gia Nhật Bản. Đây cũng đóng vai trò quan trọng về chính trị - ngoại giao khi là nơi diễn ra các hoạt động ngoại giao với các lãnh đạo quốc gia.</p>
+			<div class="image-gr">
+				<img src="https://dulichnhatban.net/static/uploads/tinymce/2016/08/01/14/88ac3ee8f31b200913fcf5515c3f94b6.jpg" alt="Hoàng cung Tokyo">
+				<img src="https://songhantourist.com/upload/articles-images/1537432986-hoang-cung-tokyo.jpeg" alt="Hoàng cung Tokyo">
+			</div>
+			<p style="font-family:myFifthFont;margin-left:260px;;font-size:25px">Hoàng cung Tokyo</p>
+			<p>Hơn nữa, về mặt lịch sử, Hoàng cung là nơi linh thiêng nhất ở "Xứ sở mặt trời mọc". Cung điện được xây dựng trong một công viên rộng lớn với phong cảnh tuyệt đẹp, được bao bọc hào nước và tường đá bao quanh. Đây sẽ là địa điểm check in tuyệt vời nhất ở Tokyo.</p>
+			</div>
+		<div class="vid-content">
+			<video width="75%" controls autoplay muted loop>
+				<source src="Palace.mp4" type="video/mp4">
+			</video>
+		</div>
+		</div>
+		
+		<h3>2. Tháp truyền hình Tokyo (Tokyo Skytree)</h3>
+		<div class="content-vs-vid">
+			<div class="txt-content">
+			<p>Tokyo Skytree được xây dựng vào năm 2014, với chiều cao 634 mét, được mệnh danh là tòa nhà cao nhất tại Nhật Bản và là tháp truyền hình cao nhất thế giới.</p>
+			<div class="image-gr">
+				<img src="https://goldensmiletravel.com/uploads/images/2023/06/28/tokyo-skytree-1024x576-1687921129.jpg" alt="Hoàng cung Tokyo">
+				<img src="https://thanhnien.mediacdn.vn/uploaded/minhnguyet/2019_06_05/tokyo-skytree3_XVHT.jpg?width=500" alt="Tháp Tokyo Skytree">
+			</div>
+			<div class="content-gr">
+				<p>Tháp Tokyo Skytree</p>
+				<p style="margin-left:25px">Bên trong đài quan sát</p>
+			</div>
+			<p>Phần ấn tượng nhất của tòa tháp là 2 đài quan sát có độ cao lần lượt là 350m và 450m. Đứng ở đây, bạn sẽ phải phóng tầm mắt bao quát toàn bộ Tokyo. Bên cạnh đó, trong tháp còn có nhiều quán cà phê, nhà hàng và cửa hàng lưu niệm.</p>
+			</div>
+		<div class="vid-content">
+			<video width="75%" controls autoplay muted loop>
+				<source src="Skytree.mp4" type="video/mp4">
+			</video>
+		</div>
+		</div>
+
+		<h3>3. Shibuya</h3>
+		<div class="content-vs-vid">
+			<div class="txt-content">
+			<p>Shibuya là địa điểm du lịch không thể bỏ qua ở Tokyo. Khu phố này đại diện cho thủ đô trẻ trung và hiện đại của Nhật Bản, nơi có một số thương hiệu thời trang nổi tiếng nhất thế giới. Nếu bạn là một tín đồ mua sắm thì không thể nào bỏ qua Shibuya.</p>
+			<div class="image-gr">
+				<img src="https://www.agoda.com/wp-content/uploads/2019/01/Tokyo-travel-tips_city-guides_Tokyo_Japan_people-at-shibuya-crossing.jpg" alt="Hoàng cung Tokyo">
+				<img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+			</div>
+			<p style="font-family:myFifthFont;margin-left:285px;;font-size:25px">Shibuya</p>
+			<p>Cho đến ngày nay, khu phố thời trang Shibuya quy tụ các cửa hàng thời trang như: Shibuya PARCO và Cocoti,… Đặc biệt điểm du lịch ở Tokyo này còn được chọn là nơi tổ chức những sự kiện liên quan tới thời trang.</p>
+			<div class="image-gr">
+				<img src="https://media.timeout.com/images/105559636/image.jpg" alt="Khu phố Shibuya">
+				<img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/50/82/82/caption.jpg?w=1200&h=1200&s=1" alt="Cảnh sắc Shibuya">
+			</div>
+			</div>
+		<div class="vid-content">
+			<video width="75%" controls autoplay muted loop>
+				<source src="Shibuya.mp4" type="video/mp4">
+			</video>
+		</div>
+		</div>
+</body>
+</html>
