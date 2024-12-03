@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt Vé Máy Bay Đi Tokyo</title>
+    <style>
+        @font-face { 
+            font-family: myThirdFont; 
+            src: url("SVN-Oriental Kaishu.otf");
+        }
+        @font-face { 
+            font-family: myFirstFont; 
+            src: url("SVN-Truffaux Pro.otf");
+        }
+        @font-face { 
+            font-family: mySecondFont; 
+            src: url("SVN-Magnificent.otf");
+        }
+        @font-face { 
+            font-family: myFourthFont; 
+            src: url("SVN-Bali Script.ttf");
+        }
+
+        /*Định dạng cho menu nè*/
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #130f40;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+			.navbar li {
+				float: left;
+			}
+			.navbar li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 30px 25px;
+				font-family: myThirdFont;
+				font-size: 30px;
+				text-decoration: none;
+			}
+			.navbar li a:hover:not(.active) {
+				background-color: #0c2461;
+			}
+			.navbar .active {
+				background-color: #3c6382;
+			}
+
+        /*Định dạng cho ndung nè*/
+        body {
+            background-color: #c7ecee;
+            font-family: mySecondFont;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        h2 {
+            font-family: myFirstFont;
+            color: #2d3436;
+            font-size: 80px;
+            text-align: center;
+            margin-top: 120px;
+        }
+        p {
+            font-family: mySecondFont;
+            font-size: 18px;
+            color: black;
+            margin-bottom: 20px;
+            max-width: 80%;
+            text-align: left;
+            margin-left: 120px;
+            margin-right: 120px;
+        }
+
+        .images-horizontal {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin: 20px 100px;
+        }
+			.images-horizontal img {
+				width: 48%;
+				height: auto;
+			}
+        .centered-image img {
+            display: block;
+            margin: 20px auto;
+            width: 70%;
+            height: auto;
+        }
+		
+		footer {
+			background-color: #130f40;
+			text-align: center;
+			width: 100%;
+			box-sizing: border-box;
+			position: relative;
+			padding: 40px 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+		}
+
+			footer .left-content {
+				font-family: mySecondFont;
+				font-size: 15px;
+				color: white;
+				width: 42%;
+				margin-left: 100px;
+			}
+			footer .right-content {
+				font-family: mySecondFont;
+				font-size: 15px;
+				color: white;
+				width: 40%;
+				margin: 0;
+			}
+			footer .left-content {
+				text-align: left;
+			}
+			footer .right-content {
+				text-align: right;
+			}
+
+				footer .left-content p,
+				footer .right-content p {
+					margin: 5px 0;
+					font-family: mySecondFont;
+					font-size: 15px;
+					color: white;
+				}
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Trang chủ.html">Trang chủ</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tham quan.html">Tham quan</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tokyo theo mùa.html">Các mùa ở Tokyo</a></li>
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Lịch trình tham quan.html">Lịch trình</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Khách sạn nổi tiếng.html">Khách sạn</a></li>
+        <li><a class="active" href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Đặt vé.html">Đặt vé</a></li>
+    </ul>
+
+    <h2>Đặt Vé Máy Bay Đi Tokyo</h2>
+    <p>
+        Bạn có thể đặt vé máy bay của những hãng hàng không Vietjet Jetstar, Vietnam Airlines, American Airlines hoặc Singapore Airlines, Japan Airlines, All Nippon Airways,… 
+    </p>
+
+    <div class="images-horizontal">
+        <img src="https://timchuyenbay.vn/wp-content/uploads/2017/11/vietjet-1445.png">
+        <img src="https://cdn.dmcl.biz/media/image/150839/o/ncfaLhKagLwhRKBv">
+    </div>
+    <p>
+        Máy bay sẽ xuất phát từ Hà Nội hoặc TP. HCM và tới thẳng sân bay Narita hoặc Haneda của Tokyo mà không phải quá cảnh. Thời gian bay sẽ mất tầm khoảng 7 tiếng nếu xuất phát từ Hà Nội & 9 – 10 tiếng nếu xuất phát từ TP. HCM.
+    </p>
+
+    <div class="centered-image">
+        <img src="https://vietnamlike.net/wp-content/uploads/2019/04/bay-tu-nhat-ve-viet-nam-bao-lau.jpg">
+    </div>
+
+    <p>
+        Thông thường, giá vé có thể dao động trong vòng trên dưới 500 đô la Mỹ đối với hạng phổ thông (tùy theo chặng bay và hãng hàng không). Nhưng bạn cũng có thể tiết kiệm tiền bằng việc săn vé máy bay đi Tokyo giá rẻ.
+    </p>
+	
+	<footer>
+        <div class="left-content">
+            <p><strong>Những lưu ý khi đi Tokyo</strong></p>
+            <ul>
+                <li>Học cách dùng Hyperdia và tìm đường với Google Maps.</li>
+                <li>Lập kế hoạch cho những tuyến đường dài & tìm những ưu đãi du lịch.</li>
+                <li>Nên mua bảo hiểm du lịch.</li>
+                <li>Trong chuyến đi bạn nên mang theo bộ đổi nguồn phù hợp.</li>
+                <li>Học và tìm hiểu các phép xã giao cơ bản ở Nhật Bản.</li>
+            </ul>
+        </div>
+        <div class="right-content">
+            <p><strong>Nhóm du lịch Tokyo</strong></p>
+            <p>Thành viên nhóm :</p>
+            <p>Nguyễn Ngọc Bảo Châu | Trương Bảo Châu |
+			<br>Nguyễn Cao Trà My | Lê Phan Mỹ Anh |
+			<br>Nguyễn Quỳnh Trâm | Nguyễn Vũ Việt Trinh |
+			<br>Trần Võ Bảo Trinh</p>
+        </div>
+    </footer>
+</body>
+</html>

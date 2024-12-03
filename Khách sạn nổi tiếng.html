@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Khách sạn</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+        @font-face { 
+            font-family: myThirdFont; 
+            src: url("SVN-Oriental Kaishu.otf");
+        }
+        @font-face { 
+            font-family: myFirstFont; 
+            src: url("SVN-Truffaux Pro.otf");
+        }
+        @font-face { 
+            font-family: mySecondFont; 
+            src: url("SVN-Magnificent.otf");
+        }
+		@font-face { 
+            font-family: myFourthFont; 
+            src: url("SVN-Bali Script.ttf");
+        }
+		
+		/*Định dạng cho menu nè*/
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #130f40;
+            position: fixed;   
+            top: 0; 
+            left: 0;
+            width: 100%;     
+            z-index: 1000;
+        }
+			.navbar li { 
+				float: left; 
+			}
+			.navbar li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 30px 25px;
+				font-family: myThirdFont;  
+				font-size: 30px;
+				text-decoration: none;
+			}
+			.navbar li a:hover:not(.active) { 
+				background-color: #0c2461; 
+			}
+			.navbar .active { 
+				background-color: #3c6382; 
+			}
+
+        /*Định dạng cho nội dung*/
+        body {
+            background-color: #c7ecee;
+            font-family: mySecondFont;
+            margin: 20px;
+        }
+        h2 { 
+            font-family: myFirstFont; 
+            font-size: 80px; 
+            color: #2d3436;
+            text-align: center; 
+            margin-top: 120px;
+        }
+        .content {
+            margin-left: 100px; 
+        }
+			.content h3 {
+				font-family: myFourthFont;
+				font-size: 50px;
+				color: #2d3436;
+				margin-top: 30px;
+			}
+			.content p {
+				font-family: mySecondFont;
+				color: black;
+				font-size: 18px;
+				margin-bottom: 20px;
+				max-width: 38%;
+				text-align: left;
+			}
+			.content .image-gr {
+				display: flex;
+				justify-content: flex-start; 
+				gap: 10px;
+				margin-top: 10px;
+				text-align: right;
+			}
+			.content a {
+				font-family: mySecondFont;
+				color: #3498db;
+				text-decoration: none;
+			}
+			.content a:hover {
+				text-decoration: underline;
+			}
+    </style>
+</head>
+<body>
+	<ul class="navbar">
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Trang chủ.html">Trang chủ</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tham quan.html">Tham quan</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tokyo theo mùa.html">Các mùa ở Tokyo</a></li>
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Lịch trình tham quan.html">Lịch trình</a></li>
+		<li><a class="active" href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Khách sạn nổi tiếng.html">Khách sạn</a></li>
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Đặt vé.html">Đặt vé</a></li>
+    </ul>
+	
+	<h2>Một số khách sạn nổi tiếng</h2>
+	<div class="content">
+		<h3>Four Seasons Hotel Marunouchi</h3>
+		<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\4 seasons hotel.jpg" class="image-gr" style="width:380px;height:230px">
+		<p><strong>Địa chỉ:</strong> 1-11-1 Marunouchi Pacific Century Place, Marunouchi, Chiyoda, Tokyo</p>
+		<p><strong>Thông tin:</strong> Khách sạn 5 sao tọa lạc gần ga Tokyo, với 57 phòng và 1 nhà hàng cao cấp.</p>
+		<p><a href="https://www.fourseasons.com/tokyo/">Trang web</a> | <a href="https://www.agoda.com/vi-vn/four-seasons-hotel-tokyo-at-marunouchi/hotel/tokyo-jp.html?cid=1844104&ds=j2tpXih8eaCZmFAl">Đặt phòng</a></p>
+	
+		<h3>InterContinental ANA Tokyo</h3>
+		<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\InterContinental ANA Tokyo.jpg" class="image-gr" style="width:300px;height:230px">
+		<p><strong>Địa chỉ:</strong> 1 Chome-12-33 Akasaka, Minato City, Tokyo</p>
+		<p><strong>Thông tin:</strong> Khách sạn 5 sao nằm tại khu Akasaka, thuận tiện gần các điểm tham quan nổi tiếng.</p>
+		<p><a href="https://anaintercontinental-tokyo.jp/en/">Trang web</a> | <a href="https://www.agoda.com/vi-vn/ana-intercontinental-tokyo/hotel/tokyo-jp.html?cid=1844104&ds=Zcq0kHySMS7f7P1e">Đặt phòng</a></p>
+	
+		<h3>New Otani Tokyo</h3>
+		<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\new otani hotel.jpg" class="image-gr" style="width:380px;height:230px">
+		<p><strong>Địa chỉ:</strong> 4-1 Kioi-Cho, Chiyoda-Ku, Tokyo</p>
+		<p><strong>Thông tin:</strong> Khách sạn gần Cung điện Hoàng gia, điểm đến hàng đầu của du khách.</p>
+		<p><a href="https://www.newotani.co.jp/en/tokyo/">Trang web</a> | <a href="https://www.agoda.com/vi-vn/hotel-new-otani-tokyo-the-main/hotel/tokyo-jp.html?cid=1844104&ds=AcE6l%2BkxNsTLfBxm">Đặt phòng</a></p>
+	
+		<h3>Mandarin Oriental</h3>
+		<img src="C:\Users\hp\OneDrive\HTML\Web Tokyo\Mandarin Oriental.jpg" class="image-gr" style="width:240px;height:300px">
+		<p><strong>Địa chỉ:</strong> 2-1-1 Nihonbashi Muromachi, Chuo, Tokyo</p>
+		<p><strong>Thông tin:</strong> Nổi tiếng với tầm nhìn ra Tokyo Skytree và Núi Phú Sĩ, dịch vụ đẳng cấp thế giới.</p>
+		<p><a href="https://www.mandarinoriental.com/en/">Trang web</a> | <a href="https://www.agoda.com/vi-vn/mandarin-oriental-tokyo_11/hotel/tokyo-jp.html?cid=1844104&ds=Lv1YUu0fXPpy3P%2By">Đặt phòng</a></p>
+	</div>
+</body>
+</html>

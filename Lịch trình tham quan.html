@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lịch trình tham quan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face { 
+            font-family: myThirdFont; 
+            src: url("SVN-Oriental Kaishu.otf");
+        }
+        @font-face { 
+            font-family: myFirstFont; 
+            src: url("SVN-Truffaux Pro.otf");
+        }
+        @font-face { 
+            font-family: mySecondFont; 
+            src: url("SVN-Magnificent.otf");
+        }
+        @font-face { 
+            font-family: myFourthFont; 
+            src: url("SVN-Bali Script.ttf");
+        }
+
+        /* Định dạng cho menu nè */
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #130f40;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+			.navbar li {
+				float: left;
+			}
+			.navbar li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 30px 25px;
+				font-family: myThirdFont;
+				font-size: 30px;
+				text-decoration: none;
+			}
+			.navbar li a:hover:not(.active) {
+				background-color: #0c2461;
+			}
+			.navbar .active {
+				background-color: #3c6382;
+			}
+
+        /* Định dạng cho ndung nè */
+        body {
+            background-color: #c7ecee;
+            font-family: mySecondFont;
+            margin: 20px;
+        }
+        h2 {
+            font-family: myFirstFont;
+            font-size: 80px;
+            color: #2d3436;
+            text-align: center;
+            margin-top: 120px;
+        }
+        .content {
+            margin-left: 100px;
+        }
+			.content h3 {
+				font-family: myFourthFont;
+				font-size: 50px;
+				color: #2d3436;
+				margin-top: 30px;
+			}
+			.content p {
+				font-family: mySecondFont;
+				color: black;
+				font-size: 18px;
+				margin-bottom: 20px;
+				max-width: 45%;
+				text-align: center;
+			}
+			.content .image-gr {
+				display: flex;
+				gap: 20px;
+				justify-content: flex-start;
+			}
+				.image-gr .image {
+					display: flex;
+					flex-direction: column; 
+					align-items: center;
+					width: 380px;
+				}
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Trang chủ.html">Trang chủ</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tham quan.html">Tham quan</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Tokyo theo mùa.html">Các mùa ở Tokyo</a></li>
+        <li><a class="active" href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Lịch trình tham quan.html">Lịch trình</a></li>
+		<li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Khách sạn nổi tiếng.html">Khách sạn</a></li>
+        <li><a href="C:\Users\hp\OneDrive\HTML\Web Tokyo\Đặt vé.html">Đặt vé</a></li>
+    </ul>
+
+    <h2>Lịch trình tham quan</h2>
+    <div class="content">
+        <h3>Ngày 1</h3>
+        <div class="image-gr">
+			<div class="image">
+				<img src="https://dulichviet.com.vn/images/bandidau/kham-pha-den-meiji-jingu-nhat-ban.jpg" style="width:380px;height:230px">
+				<p>Tham quan đền Meiji</p>
+			</div>
+			<div class="image">
+				<img src="https://nippontravel.vn/wp-content/uploads/2024/03/Yoyogi-Park-21-600x450.webp" style="width:380px;height:230px">
+				<p>Công viên Yoyogi</p>
+			</div>
+		</div>
+		<div class="image-gr">
+			<div class="image">
+				<img src="https://media.istockphoto.com/id/1281765008/vi/anh/khu-gi%E1%BA%A3i-tr%C3%AD-v%E1%BB%81-%C4%91%C3%AAm-t%E1%BA%A1i-kabukicho-%E1%BB%9F-shinjuku-tokyo-nh%E1%BA%ADt-b%E1%BA%A3n.jpg?s=612x612&w=0&k=20&c=2--f8y4QNuZGsee5d17FMBqMYaJZRy6BAmII9I-2K4s=" style="width:380px;height:230px">
+				<p>Harajuku</p>
+			</div>	
+			<div class="image">
+				<img src="https://www.agoda.com/wp-content/uploads/2024/02/Featured-image-Shibuya-Tokyo-Japan-1244x700.jpg" style="width:380px;height:230px">
+				<p>Shibuya</p>
+			</div>
+		</div>
+
+        <h3>Ngày 2</h3>
+        <div class="image-gr">
+			<div class="image">
+				<img src="https://www.japan-guide.com/g18/740/3005_01.jpg" style="width:380px;height:230px">
+				<p>Ginza</p>
+			</div>
+			<div class="image">
+				<img src="https://nippontravel.vn/wp-content/uploads/2024/03/Tsukiji-Outer-Market-7-600x387.webp" style="width:380px;height:230px">
+				<p>Chợ ngoài trời Tsukiji</p>
+			</div>
+        </div>
+		
+        <h3>Ngày 3</h3>
+        <div class="image-gr">
+			<div class="image">
+				<img src="https://songhantourist.com/upload/articles-images/images/30725536_1955771404464792_4847456388420468736_n.jpg" style="width:380px;height:230px">
+				<p>Hoàng cung Tokyo</p>
+			</div>
+			<div class="image-gr">
+			<div class="image">
+				<img src="https://media.licdn.com/dms/image/v2/D5612AQFyfDpHYxQUpw/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1711335133442?e=2147483647&v=beta&t=8huxxIo4mQeQV6DVNzpbDDijhrPkZkDriVLSSftOayE" style="width:380px;height:230px">
+				<p>Tokyo Skytree</p>
+			</div>
+        </div>
+    </div>
+</body>
+</html>
